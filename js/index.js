@@ -8,3 +8,6 @@ class App {
     document.getElementById("reader-link").innerHTML = STRINGS.LINKS.READER;
   }
 }
+
+let app = new App();
+app.main();

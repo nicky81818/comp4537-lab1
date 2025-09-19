@@ -30,7 +30,6 @@ class Note{
     this.note.addEventListener("input", function(event) {
 
       notesArray = notesArray.map(note => {
-        console.log(note)
         if (note.id === Note.getNoteId(event.target.id)){
           note.save(event.target.value)
         }

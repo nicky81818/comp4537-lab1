@@ -87,8 +87,6 @@ class Note{
     } else {
       let notesArrayStrings = localStorage.getItem("notes")
       Note.removeAll()
-      console.log(notesArrayStrings)
-      console.log(JSON.parse(notesArrayStrings))
       JSON.parse(notesArrayStrings).forEach(note => {
         notesArray.push(new Note(note.text, note.id, page))
       });

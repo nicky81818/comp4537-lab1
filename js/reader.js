@@ -3,7 +3,6 @@ class App {
     this.applyTranslations()
     setInterval(function () {
       Note.populateNotes("reader");
-      console.log("refresh");
     }, TWO_SECONDS);
   }
   applyTranslations() {

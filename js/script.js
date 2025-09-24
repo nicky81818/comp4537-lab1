@@ -40,8 +40,8 @@ class Note{
   }
 
   save(text) {
-    this.text = text
-    this.note.innerText = text
+    this.text = text;
+    this.note.innerText = text;
   }
   
   remove() {
